@@ -251,7 +251,7 @@ I trained the model with 6 , 20 , 50 epochs with patch size =5 , learning rate =
 I added layers.l2_regularizer(1e-3) to all layers for better performance.
 I used layers 3, 4 and 7 of VGG16 to create skip layers for a fully convolutional network based on paper Fully [Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1605.06211.pdf)
 
-
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/images/img_7.png)
 
 
 The loss improved after 10 epoch
@@ -259,6 +259,7 @@ The loss improved after 10 epoch
 
 
 ### inference_samples @ 6 epochs:
+
 
 ### inference_samples @ 20 epochs
 
