@@ -246,7 +246,7 @@ Download the[Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.
 Run the following command to run the project:
 python main.py
 
-### conculion
+## conclusion:
 I trained the model with 6 , 20 , 50 epochs with patch size =5 , learning rate =  0.0009
 I added layers.l2_regularizer(1e-3) to all layers for better performance.
 I used layers 3, 4 and 7 of VGG16 to create skip layers for a fully convolutional network based on paper Fully [Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1605.06211.pdf)
