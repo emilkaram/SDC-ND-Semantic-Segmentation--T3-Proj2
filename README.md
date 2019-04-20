@@ -259,6 +259,12 @@ The loss improved after 10 epoch
 
 
 ### inference_samples @ 6 epochs:
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/6_epochs/um_000047.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/6_epochs/um_000087.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/6_epochs/um_000088.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/6_epochs/umm_000068.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/6_epochs/uu_000059.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/6_epochs/uu_000097.png)
 
 
 ### inference_samples @ 20 epochs
