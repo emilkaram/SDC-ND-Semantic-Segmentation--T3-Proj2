@@ -43,7 +43,7 @@ Download the[Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.
 
 ## implemantation:
 ### Load Vgg
-def load_vgg(sess, vgg_path):
+    def load_vgg(sess, vgg_path):
     """
     Load Pretrained VGG Model into TensorFlow.
     :param sess: TensorFlow Session
@@ -69,6 +69,7 @@ def load_vgg(sess, vgg_path):
     
     return image_input, keep_prop, layer3_out, layer4_out, layer7_out
     
+      
 
 
 
