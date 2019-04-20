@@ -151,7 +151,7 @@ Download the[Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.
     return logits, train_op, cross_entrop_loss
     
  
- ### train the model:
+ ### Defin train_nn:
  
     def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_loss, input_image,
              correct_label, keep_prob, learning_rate):
@@ -184,7 +184,7 @@ Download the[Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.
         
         
         
-### run the model:
+### define run:
     def run():
     num_classes = 2
     image_shape = (160, 576)  # KITTI dataset uses 160x576 images
@@ -223,12 +223,12 @@ Download the[Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.
         logits , train_op , cross_entropy_loss = optimize(nn_last_layer , correct_label , learning_rate , num_classes)
         
   
-  ### train nn
+  ### train the model:
        # TODO: Train NN using the train_nn function
         train_nn(sess , epochs , batch_size , get_batches_fn, train_op , cross_entropy_loss , input_image , correct_label,
                 keep_prop , learning_rate)
      
- ### Save the infrences samples
+ ### Save the infrences samples:
        # TODO: Save inference data using helper.save_inference_samples
         helper.save_inference_samples(runs_dir, data_dir, sess, image_shape, logits, keep_prop, input_image)
         print('saved')
