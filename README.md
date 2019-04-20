@@ -254,7 +254,7 @@ I used layers 3, 4 and 7 of VGG16 to create skip layers for a fully convolutiona
 ![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/images/img_7.png)
 
 
-The loss improved after 10 epoch
+### The loss improved after 10 epoch
 ![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/loss/loss_50_epoch.png)
 
 
@@ -268,6 +268,16 @@ The loss improved after 10 epoch
 
 
 ### inference_samples @ 20 epochs
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/um_000047.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/um_000087.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/um_000088.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/umm_000068.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/uu_000032.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/uu_000053.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/uu_000059.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/uu_000071.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/runs/20_epoch/uu_000097.png)
+
 
 ### inference_samples @ 50 epochs
 
