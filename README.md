@@ -13,7 +13,7 @@ In image classification,the classifier will classify objects based on its labels
 
 
 ### Convolutional Neural Network(CNN) 
-In CNN, input layer followed by convolution layer, then it is connected to fully connected layer followed softmax to classify the image. CNN is to classify if the image has got particular object, but it more difficult to answer “where is the object in the image”.
+In CNN, input layer followed by convolution layers, then it is connected to fully connected layer followed softmax to classify the image. CNN is to classify if the image has got particular object, but it more difficult to answer “where is the object in the image”.
 This is because of fully connected layer doesn’t preserve spatial information. 
 
 ![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/images/image3.jpeg)
