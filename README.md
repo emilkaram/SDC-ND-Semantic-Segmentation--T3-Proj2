@@ -255,7 +255,7 @@ I used layers 3, 4 and 7 of VGG16 to create skip layers for a fully convolutiona
 
 
 The loss improved after 10 epoch
-1[](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/loss/loss_50_epoch.png)
+![](https://github.com/emilkaram/SDC-ND-Semantic-Segmentation-TensorFlow-T3-Proj2/blob/master/loss/loss_50_epoch.png)
 
 
 ### inference_samples @ 6 epochs:
