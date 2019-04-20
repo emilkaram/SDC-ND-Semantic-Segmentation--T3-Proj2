@@ -246,4 +246,9 @@ Download the[Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.
 Run the following command to run the project:
 python main.py
 
+### conculion
+I trained the model with 6 , 20 , 50 epochs with patch size =5 , learning rate =  0.0009
+Also added layers.l2_regularizer(1e-3) to all layers
+
+
 
